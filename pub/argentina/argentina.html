@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+    <title>Christmas Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./argentina.css">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script defer type="text/javascript" src='./main.js'></script>
+     
+ </head>
+ <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #34e354;">
+        <a class="navbar-brand" href="#">&nbsp;&nbsp;Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../italy/italy.html">Italy</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./argentina.html">Argentina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../js-objects/js_objects.html">San Francisco</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>
+        Argentina Menu
+    </h1>
+    <div class="rectangle"></div>
+
+    <div id="accordion">
+            <div class="card-header" id="headingOne">
+              <h5>
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <img class="title-img" src="../wine.png">
+                    <h2>&nbsp;&nbsp;Wine</h2>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <h4>
+                  With tonight's dinner, the <i>Luigi Bosca Malbec Lujan de Cuyo 2017</i> from Argentina will be served, as pictured below.
+              </h4>
+          
+              <div>
+              <img class="wine" src="argentina-wine.png">
+            </div>
+            </div>
+
+
+
+            <div class="card-header" id="headingTwo">
+              <h5>
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <img class="title-img" src="../maincourse.png">
+                    <h2>&nbsp;&nbsp;Main Course</h2>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <h4>
+                  The main course for tonight's dinner is <u><a href="https://www.angsarap.net/2019/02/22/locro/">
+                    locro</a></u>
+              </h4>
+              <img class="main" src="argentina-main.jpg">
+          </div>
+
+
+          <div class="card-header" id="headingThree">
+          <h5>
+              <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <img class="title-img" src="../dessert.png">
+                    <h2>&nbsp;&nbsp;Dessert</h2>
+              </button>
+          </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <h4>
+                  The dessert for tonight's dinner is <u><a href="https://bakingamoment.com/easy-dulce-de-leche-recipe/">
+                    Dulce de Leche with ice cream.</a></u>
+              </h4>
+              <img class="dessert" src="argentina-dessert.jpg">
+          </div>
+      </div>
+
+
+    
+</body>
+</html>

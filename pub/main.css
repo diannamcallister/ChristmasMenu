@@ -1,0 +1,78 @@
+h1 {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+h4 {
+    margin: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.rectangle {
+    height: 7px;
+    width: 290px;
+    background-color: #34e354;
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.column-one {
+    float: left;
+    width: 33.33%;
+    background-image: url("./italy.jpg");
+    /* opacity: 0.5; */
+    height: 575px;
+}
+
+.column-two {
+    float: left;
+    width: 33.33%;
+    background-image: url("./argentina.jpg");
+    /* opacity: 0.5; */
+    height: 575px;
+}
+
+.column-three {
+    float: left;
+    width: 33.33%;
+    background-image: url("./sanfrancisco.jpg");
+    /* opacity: 0.5; */
+    height: 575px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.btn-lg {
+    background-color: #de1616;
+}
+
+.btn-lg:hover {
+    opacity: 0.5;;
+}
+
+.description {
+    text-align: center;
+}

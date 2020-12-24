@@ -1,0 +1,114 @@
+h1 {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+h4 {
+    margin: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.rectangle {
+    height: 7px;
+    width: 180px;
+    background-color: #34e354;
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    float:left;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.btn-lg {
+    background-color: #de1616;
+}
+
+.btn-lg:hover {
+    background-color: #34e354;
+}
+
+.description {
+    text-align: center;
+}
+
+.title-img {
+    border-radius: 50%;
+    float: left;
+}
+
+.wine {
+    width: 100px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.salad {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* new */
+h1, h5 {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+h2 {
+    margin: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+/* 
+h2:hover {
+    color: #56bcdb;
+} */
+
+h4, h3 {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#image {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 1380px;
+    height: 260px;
+}
+
+
+.show {
+    margin-bottom: 20px;
+}
